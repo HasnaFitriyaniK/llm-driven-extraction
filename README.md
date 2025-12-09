@@ -1,10 +1,10 @@
-# Knowledge Graph Extraction for Research Paper Recommendation
+# LLM-Driven Knowledge Graph Generation
 
 Tugas Akhir - Sistem Rekomendasi Paper menggunakan LLM-Powered Ontology Generation
 
 ## Overview
 
-Project ini mengekstrak knowledge graph dari research papers menggunakan Google Gemini API, berdasarkan metodologi Tupayachi et al. (2024).
+Project ini menghasilkan knowledge graph dari research papers menggunakan Gemma API, berdasarkan metodologi Tupayachi et al. (2024).
 
 ## Dataset
 
@@ -20,8 +20,8 @@ Project ini mengekstrak knowledge graph dari research papers menggunakan Google 
    - No API calls (gratis)
    - Output: `hasil_smart_parsing.json`
 
-2. **Stage 2 - Graph Extraction** (`step2_graph_extraction.py`)
-   - Ekstraksi knowledge graph via Gemini API
+2. **Stage 2 - Graph Generation** (`step2_graph_extraction.py`)
+   - Generate knowledge graph via Gemini API
    - 3-step prompt chain (Extract → Filter → Build Graph)
    - Output: `hasil_graph_final.json`
 
