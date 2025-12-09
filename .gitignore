@@ -1,0 +1,36 @@
+# Output Files (hasil proses - jangan push karena besar)
+hasil_graph_*.json
+hasil_smart_parsing.json
+
+# Backup files
+*_OLD.json
+*_backup.json
+
+# Dataset files (opsional - comment jika mau push dataset)
+# dataset_*.json
+# 20241121-scopus.json
+
+# Python
+__pycache__/
+*.pyc
+*.py[cod]
+*$py.class
+.Python
+env/
+venv/
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temporary files
+tempCodeRunnerFile.py
+*.tmp
+cek_model.py
